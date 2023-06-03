@@ -16,7 +16,6 @@ import {
 import LightModeIcon from '@mui/icons-material/LightMode';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
 import Search from './Search/Search';
-import Online from './Online/Online';
 import { useDispatch } from 'react-redux';
 import { getFollowingPosts} from '../Actions/UserAction';
 import Lg from './Changepass/Lg';
