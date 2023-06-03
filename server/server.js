@@ -14,6 +14,8 @@ cloudinary.config({
 });
 
 const app = express();
+
+app.use("/", express.static("../client/build"));
 dbconnect();
 app.use(cookieparser());
 app.use(cors());
