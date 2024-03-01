@@ -49,7 +49,7 @@ const login = async(req,res)=>{
      let pasmatch = await user.matchpass(password);
      if(!pasmatch) return res.status(401).json({success:false,message:"Inalid Credential"});
      const token = user.gentoken();
-     res.status(200).cookie('token',token).json({success:true,message:"Login Succesfull",user:user})
+     res.status(200).cookie('token',token).json({success:true,message:"Login Succesfull",user:user,token:token})
    } catch (error) {
         res.status(501).json({success:false,message:error});
    }
