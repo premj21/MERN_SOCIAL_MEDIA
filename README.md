@@ -32,17 +32,16 @@ Ensure you have the following installed:
 ### **Setup Steps**  
 1. **Clone the repository**  
    ```bash  
-   git clone https://github.com/yourusername/FriendNet.git  
-   cd FriendNet  
-
-    Install dependencies
+   git clone https://github.com/premj21/MERN_SOCIAL_MEDIA.git
+   cd MERN_SOCIAL_MEDIA  
+   Install dependencies
 
 # For the backend  
 cd backend  
 npm install  
 
 # For the frontend  
-cd ../frontend  
+cd ../client  
 npm install  
 
 Configure environment variables
@@ -59,15 +58,12 @@ Run the application
     npm run start  
 
     # Start the frontend  
-    cd ../frontend  
+    cd ../client  
     npm start  
 
     Access the application
         Navigate to http://localhost:3000 in your browser to explore FriendNet! 🎉
 
-📸 Screenshots
-
-(Add screenshots of your app here for a more engaging README.)
 🌟 Future Enhancements
 
     🔑 Add social login (Google, Facebook).
@@ -92,5 +88,5 @@ This project is licensed under the MIT License.
 For queries or collaboration opportunities, feel free to reach out:
 
     Name: Prem Jadhav
-    Email: your-email@example.com
-    GitHub: yourusername
+    Email: premjadhav378@example.com
+    GitHub: premj21
